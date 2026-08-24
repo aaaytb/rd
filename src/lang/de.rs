@@ -759,5 +759,6 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Browser didn't open? Use the url below to sign in.", "Hat sich der Browser nicht geöffnet? Melden Sie sich über die untenstehende URL an."),
         ("Lock canvas", "Sichtfeld sperren"),
         ("Enable WebRTC P2P connection", "WebRTC-P2P-Verbindung aktivieren"),
+        ("Enable TCP hole punching", "TCP-Hole-Punching aktivieren"),
     ].iter().cloned().collect();
 }
